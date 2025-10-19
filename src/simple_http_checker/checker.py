@@ -4,6 +4,7 @@ from typing import Collection
 
 logger = logging.getLogger(__name__)  # name of module - checker
 
+
 def check_urls(
     urls: Collection[str], timeout: int = 5
 ) -> dict[str, str]:
