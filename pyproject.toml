@@ -41,10 +41,9 @@ warn_unused_configs = true
 ignore_missing_imports = true
 
 [tool.bandit]
-exclude_dirs = [".venv", "__pycache__", "build", "dist"]
+exclude_dirs = [".venv", "__pycache__", "build", "dist","tests", "docs", "examples"]
 
 [tool.pytest.ini_options]
 addopts = "-rA -s -v"
 
-[tool.bandit]
-exclude_dirs = ["tests", "docs", "examples"]
+
