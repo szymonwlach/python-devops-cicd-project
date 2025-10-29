@@ -24,7 +24,6 @@ dev = [
     "mypy",
     "bandit",
     "types-requests",
-    "python-semantic-release"
 ]
 
 [project.scripts]
