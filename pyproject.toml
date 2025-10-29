@@ -23,7 +23,8 @@ dev = [
     "black",
     "mypy",
     "bandit",
-    "types-requests"
+    "types-requests",
+    "python-semantic-release"
 ]
 
 [project.scripts]
