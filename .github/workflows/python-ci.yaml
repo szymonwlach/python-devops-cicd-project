@@ -46,6 +46,7 @@ jobs:
       - name: Static type checks
         run: |
           mypy src/
+          mypy --config-file pyproject.toml src/
 
       - name: Security checks
         run: |
