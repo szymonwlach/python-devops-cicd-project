@@ -132,7 +132,7 @@ jobs:
     steps:
       - name: Release
         run: echo "Release"
-
+```
 🧠 Purpose
 
 This repository serves as a reference implementation of a modern DevOps pipeline for Python, ensuring:
@@ -142,3 +142,15 @@ This repository serves as a reference implementation of a modern DevOps pipeline
     Automated security and static checks
 
     Fully automated versioning and deployment to PyPI
+
+🏗️ Next Steps
+
+    Add build status and PyPI badges
+
+    Add code coverage reports using coverage.py and Codecov
+
+    Optionally extend the workflow to include Docker image publishing
+
+📦 License
+
+This project is licensed under the MIT License — feel free to use and adapt it for your own CI/CD pipelines.
