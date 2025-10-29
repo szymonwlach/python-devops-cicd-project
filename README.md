@@ -41,6 +41,17 @@ The project demonstrates a robust, production-ready **CI/CD workflow** using **G
 
 ---
 
+## 🧠 Purpose
+
+This repository serves as a reference implementation of a modern DevOps pipeline for Python, ensuring:
+
+- **High code quality**
+
+- **Automated security and static checks**
+
+- **Fully automated versioning and deployment to PyPI**
+
+
 ## 🧱 GitHub Actions Workflow
 
 Below is the workflow configuration used for this project, located at  
@@ -133,23 +144,6 @@ jobs:
       - name: Release
         run: echo "Release"
 ```
-🧠 Purpose
-
-This repository serves as a reference implementation of a modern DevOps pipeline for Python, ensuring:
-
-    High code quality
-
-    Automated security and static checks
-
-    Fully automated versioning and deployment to PyPI
-
-🏗️ Next Steps
-
-    Add build status and PyPI badges
-
-    Add code coverage reports using coverage.py and Codecov
-
-    Optionally extend the workflow to include Docker image publishing
 
 📦 License
 
